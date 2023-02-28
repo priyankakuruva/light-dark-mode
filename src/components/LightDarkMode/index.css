@@ -1,0 +1,36 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.light {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.dark {
+  background-color: #000000;
+  border-radius: 5px;
+  border-style: none;
+  border-color: #ffffff;
+  border-width: 1px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
